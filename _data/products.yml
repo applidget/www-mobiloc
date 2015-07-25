@@ -1,8 +1,14 @@
 - name: iPad 2
   price: 400
+  description:
+  img:
 
 - name: iPad Air
   price: 500
+  description:
+  img:
 
 - name: iPad 2 3G
   price: 450
+  description:
+  img:

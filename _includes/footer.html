@@ -6,35 +6,88 @@
 </div> <!-- sb-site -->
 
 <div class="sb-slidebar sb-right">
-    <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search...">
-        <span class="input-group-btn">
-            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
-        </span>
-    </div><!-- /input-group -->
-
-    <h2 class="slidebar-header no-margin-bottom">Navigation</h2>
-    <ul class="slidebar-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio_topbar.html">Portfolio</a></li>
-        <li><a href="page_about3.html">About us</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="page_contact.html">Contact</a></li>
-    </ul>
-
-    <h2 class="slidebar-header">Social Media</h2>
-    <div class="slidebar-social-icons">
-        <a href="#" class="social-icon-ar rss"><i class="fa fa-rss"></i></a>
-        <a href="#" class="social-icon-ar facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="social-icon-ar twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="social-icon-ar pinterest"><i class="fa fa-pinterest"></i></a>
-        <a href="#" class="social-icon-ar instagram"><i class="fa fa-instagram"></i></a>
-        <a href="#" class="social-icon-ar wordpress"><i class="fa fa-wordpress"></i></a>
-        <a href="#" class="social-icon-ar linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="social-icon-ar flickr"><i class="fa fa-flickr"></i></a>
-        <a href="#" class="social-icon-ar vine"><i class="fa fa-vine"></i></a>
-        <a href="#" class="social-icon-ar dribbble"><i class="fa fa-dribbble"></i></a>
-    </div>
+    <h2 class="slidebar-header">Devis en ligne</h2>
+    <form role="form">
+      <div class="form-group">
+        <select class="form-control" id="select">
+          <option selected="" value="">- Modèle de tablette -</option>
+          <option value="ipad_wifi">iPad Wifi</option>
+          <option value="ipad_3g">iPad 3G</option>
+          <option value="ipad_air">iPad Air</option>
+          <option value="ipad_mini">iPad Mini</option>
+          <option value="bornes_ipads">Bornes iPads</option>
+          <option value="ipod_touch">iPod Touch</option>
+          <option value="wiko_android">Wiko Android</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select class="form-control" id="select">
+          <option selected="" value="">- Quantité -</option>
+          <option value="1">1 tablette</option>
+          <option value="2">2 tablettes</option>
+          <option value="3">3 tablettes</option>
+          <option value="4">4 tablettes</option>
+          <option value="5">5 tablettes</option>
+          <option value="6">6 tablettes</option>
+          <option value="7">7 tablettes</option>
+          <option value="8">8 tablettes</option>
+          <option value="9">9 tablettes</option>
+          <option value="10">10 tablettes</option>
+          <option value="15">15 tablettes</option>
+          <option value="20">20 tablettes</option>
+          <option value="30">30 tablettes</option>
+          <option value="40">40 tablettes</option>
+          <option value="50">50 tablettes</option>
+          <option value="60">60 tablettes</option>
+          <option value="70">70 tablettes</option>
+          <option value="80">80 tablettes</option>
+          <option value="90">90 tablettes</option>
+          <option value="100">100 tablettes</option>
+          <option value="250">250 tablettes</option>
+          <option value="500">500 tablettes</option>
+          <option value="1000">1000 tablettes</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select class="form-control" id="select">
+          <option selected="" value="">- Durée -</option>
+          <option value="1">1 jour</option>
+          <option value="2">2 jours</option>
+          <option value="3">3 jours</option>
+          <option value="4">4 jours</option>
+          <option value="5">5 jours</option>
+          <option value="6">6 jours</option>
+          <option value="7">7 jours</option>
+          <option value="8">8 jours</option>
+          <option value="9">9 jours</option>
+          <option value="10">10 jours</option>
+          <option value="11">11 jours</option>
+          <option value="12">12 jours</option>
+          <option value="13">13 jours</option>
+          <option value="14">14 jours</option>
+          <option value="15">15 jours</option>
+          <option value="20">20 jours</option>
+          <option value="30">1 mois</option>
+          <option value="60">2 mois</option>
+          <option value="90">3 mois</option>
+          <option value="120">4 mois</option>
+          <option value="150">5 mois</option>
+          <option value="180">6 mois</option>
+          <option value="360">1 an</option>
+          <option value="720">2 ans</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <select class="form-control" id="select">
+          <option selected="" value="">- Livraison -</option>
+          <option value="region_parisienne">Région Parisienne</option>
+          <option value="france">France Métropolitaine</option>
+          <option value="europe">Europe</option>
+          <option value="monde">Monde</option>
+        </select>
+      </div>
+      <a class="btn btn-ar btn-primary btn-lg btn-highlight">Valider</a>
+    </form>
 </div> <!-- sb-slidebar sb-right -->
 <div id="back-top">
     <a href="#header"><i class="fa fa-chevron-up"></i></a>
@@ -63,5 +116,6 @@
 
 <script src="{{'/js/app.js' | prepend: site.baseurl }}"></script>
 <script src="{{'/js/home_services.js' | prepend: site.baseurl }}"></script>
+<script src="{{'/js/commerce.js' | prepend: site.baseurl }}"></script>
 
 </body>

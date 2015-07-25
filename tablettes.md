@@ -9,198 +9,72 @@ baseline: "Duis quam erat, porta in <span>tellus</span> eget, ornare <span>hendr
     <div class="row">
         <div class="col-md-3 hidden-sm hidden-xs">
           <div class="ec-filters-menu">
-            <h3 class="section-title no-margin-top">Tablettes</h3>
-            <h4>Modèle de tablette</h4>
+            <h3 class="section-title no-margin-top">{{page.title}}</h3>
+            <h4>Modèles</h4>
             <ul>
               <li><a href="javascript:void(0);" class="filter" data-filter="all">Tous</a></li>
-              <li><a href="javascript:void(0);" class="filter" data-filter=".category-smartphone">iPad 2</a></li>
-              <li><a href="javascript:void(0);" class="filter" data-filter=".category-tv">iPad Air</a></li>
-              <li><a href="javascript:void(0);" class="filter" data-filter=".category-keyboard">iPad 2 3G</a></li>
-              <li><a href="javascript:void(0);" class="filter" data-filter=".category-graphic">iPad Air 3G</a></li>
-              <li><a href="javascript:void(0);" class="filter" data-filter=".category-graphic">iPad mini</a></li>
-              <li><a href="javascript:void(0);" class="filter" data-filter=".category-graphic">Galaxy Tab 2</a></li>
+              <li><a href="javascript:void(0);" class="filter" data-filter=".category-ipad2">iPad 2</a></li>
+              <li><a href="javascript:void(0);" class="filter" data-filter=".category-ipad-air">iPad Air</a></li>
+              <li><a href="javascript:void(0);" class="filter" data-filter=".category-ipad2-3g">iPad 2 3G</a></li>
+              <li><a href="javascript:void(0);" class="filter" data-filter=".category-ipad-air-3g">iPad Air 3G</a></li>
+              <li><a href="javascript:void(0);" class="filter" data-filter=".category-ipad-mini">iPad mini</a></li>
+              <li><a href="javascript:void(0);" class="filter" data-filter=".category-galaxy-tab2">Galaxy Tab 2</a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-9">
             <div class="row" id="Container">
-                <div class="col-sm-4 mix category-smartphone" data-price="64900" data-date="20130521" data-popularity="3">
+                <div class="col-sm-4 mix category-ipad2" data-price="64900" data-date="20130521" data-popularity="3">
                     <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Iphone 5S</a></div>
+                        <div class="ec-box-header"><a href="#">iPad 2</a></div>
                         <a href="#"><img src="{{ '/img/demo/e_img01.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 649.00</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        <div class="ec-box-footer text-center">
+                            <a href="#" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mix category-keyboard" data-price="4999" data-date="20130421" data-popularity="8">
+                <div class="col-sm-4 mix category-ipad-air" data-price="4999" data-date="20130421" data-popularity="8">
                     <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Keyboard Pro Game</a></div>
+                        <div class="ec-box-header"><a href="#">iPad Air</a></div>
                         <a href="#"><img src="{{ '/img/demo/e_img02.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 49.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        <div class="ec-box-footer text-center">
+                            <a href="#" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mix category-smartphone" data-price="24999" data-date="20121409" data-popularity="7">
+                <div class="col-sm-4 mix category-ipad2-3g" data-price="24999" data-date="20121409" data-popularity="7">
                     <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Bq Aquaris 5 16GB White</a></div>
+                        <div class="ec-box-header"><a href="#">iPad 2 3G</a></div>
                         <a href="#"><img src="{{ '/img/demo/e_img03.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 249.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        <div class="ec-box-footer text-center">
+                            <a href="#" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mix category-smartphone" data-price="9995" data-date="20130521" data-popularity="10">
+                <div class="col-sm-4 mix category-ipad-air-3g" data-price="9995" data-date="20130521" data-popularity="10">
                     <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Doogee Voyager DG300 Black</a></div>
+                        <div class="ec-box-header"><a href="#">iPad Air 3G</a></div>
                         <a href="#"><img src="{{ '/img/demo/e_img04.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 99.95</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        <div class="ec-box-footer text-center">
+                            <a href="#" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mix category-graphic" data-price="22400" data-date="20111225" data-popularity="9">
+                <div class="col-sm-4 mix category-ipad-mini" data-price="22400" data-date="20111225" data-popularity="9">
                     <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Gigabyte GeForce GTX 660</a></div>
+                        <div class="ec-box-header"><a href="#">iPad mini</a></div>
                         <a href="#"><img src="{{ '/img/demo/e_img05.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 224.00</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        <div class="ec-box-footer text-center">
+                            <a href="#" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mix category-smartphone" data-price="49999" data-date="20140102" data-popularity="12">
+                <div class="col-sm-4 mix category-galaxy-tab2" data-price="49999" data-date="20140102" data-popularity="12">
                     <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Google Nexus 5 16GB Black</a></div>
+                        <div class="ec-box-header"><a href="#">Galaxy Tab 2</a></div>
                         <a href="#"><img src="{{ '/img/demo/e_img06.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 499.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-tv" data-price="99999" data-date="20121124" data-popularity="5">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">LG 55LA620S 55" LED 3D</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img07.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 999.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-smartphone" data-price="42565" data-date="20100907" data-popularity="15">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">LG G2 16GB Black</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img08.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 425.65</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-smartphone" data-price="22900" data-date="20140831" data-popularity="8">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Motorola Moto G 8GB</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img09.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 229.00</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-tv" data-price="40000" data-date="20140415" data-popularity="9">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Samsung UE40F5000 40" LED</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img10.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 400.00</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-smartphone" data-price="69999" data-date="20140309" data-popularity="10">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Samsung Galaxy S5</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img11.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 699.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-smartphone" data-price="49999" data-date="20140515" data-popularity="9">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Sony Xperia Z1 16GB Black</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img12.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 499.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-tv" data-price="149999" data-date="20120710" data-popularity="17">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">LG 32LN540B 32" LED</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img13.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 1499.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-tv" data-price="229999" data-date="20140810" data-popularity="57">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">LG 32LN5400 32" LED</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img14.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 2299.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-keyboard" data-price="2799" data-date="20140610" data-popularity="11">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Tacens Mars Gaming MK1</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img15.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 27.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-keyboard" data-price="10989" data-date="20140610" data-popularity="14">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Genesis RX22 Keyboard </a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img16.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 109.89</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-tv" data-price="89999" data-date="20140110" data-popularity="7">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">Samsung 40F6400 40" LED 3D</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img17.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 899.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mix category-keyboard" data-price="8999" data-date="20100321" data-popularity="12">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#">B-Move Pro Gaming Pack</a></div>
-                        <a href="#"><img src="{{ '/img/demo/e_img18.jpg' | prepend: site.baseurl }}" alt=""></a>
-                        <div class="ec-box-footer">
-                            <span class="label label-primary">$ 89.99</span>
-                            <a href="#" class="btn btn-ar btn-success btn-sm pull-right"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                        <div class="ec-box-footer text-center">
+                            <a href="#" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
                         </div>
                     </div>
                 </div>

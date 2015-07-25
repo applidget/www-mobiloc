@@ -3,8 +3,10 @@ title: "Location iPad wifi, 3G et accessoires : Mobiloc.fr"
 email: ecrire@applidget.com
 description: > # this means to ignore newlines until "baseurl:"
   Location iPad : Louer des iPads pour un événement est facile grâce à Mobiloc.fr. Nous installons vos applications iPads, et vous fournissons des accessoires iPads, tels que des cadenas, des bornes iPads ou des stylets. Nous avons un stock important d'iPads mini, d'iPads Wifi et 3G et d'iPods Touch pour vos événements. 
-baseurl: "http://applidget.github.io/www-mobiloc" # the subpath of your site, e.g. /blog/
+baseurl: "/www-mobiloc" # the subpath of your site, e.g. /blog/
 url: "http://applidget.github.io/www-mobiloc" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+include:
+  - "_data"

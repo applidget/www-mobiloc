@@ -1,0 +1,5 @@
+/* replace logo */
+.navbar-default .navbar-brand{
+  width: 160px;
+  padding: 0;
+}

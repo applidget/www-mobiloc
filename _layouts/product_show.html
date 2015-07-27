@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% for prod in site.data.products %}
+  {% if prod.name == page.slug %}
+    {% assign product = prod %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<header class="main-header">
+  <div class="container">
+    <h1 class="page-title">{{product.name}}</h1>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p class="slogan text-center animated bounceInLeft animation-delay-12">{{page.baseline}}</p>
+    </div>
+  </div>
+</div>

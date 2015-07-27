@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: products
 title: Tablettes
 permalink: /tablettes/
 baseline: "Duis quam erat, porta in <span>tellus</span> eget, ornare <span>hendrerit</span> nulla.<br>Quisque <span>pretium</span> enim quis justo <span>vehicula</span> congue."
@@ -23,12 +23,12 @@ baseline: "Duis quam erat, porta in <span>tellus</span> eget, ornare <span>hendr
             <div class="row" id="Container">
 
                 {% for product in site.data.products %}
-                    <div class="col-sm-4 mix category-{{product.name | replace: ' ', '-' | downcase }}" data-price="{{product.price}}" data-date="20130521" data-popularity="3">
+                    <div class="col-sm-4 mix category-{{product.name | replace: ' ', '-' | downcase }}" data-price="{{product.price}}">
                         <div class="ec-box">
-                            <div class="ec-box-header"><a href="#">{{product.name}}</a></div>
-                            <a href="#"><img src="{{ product.img | prepend: site.baseurl }}" alt=""></a>
+                            <div class="ec-box-header"><a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase}}">{{product.name}}</a></div>
+                            <a href="#"><img src="{{ product.img | prepend: site.baseurl }}" alt="{{product.name }}"></a>
                             <div class="ec-box-footer text-center">
-                                <a href="#" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
+                                <a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase }}" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Louer</a>
                             </div>
                         </div>
                     </div>

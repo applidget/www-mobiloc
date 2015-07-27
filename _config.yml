@@ -10,3 +10,6 @@ url: "http://applidget.github.io/www-mobiloc" # the base hostname & protocol for
 markdown: kramdown
 include:
   - "_data"
+collections:
+  - products:
+      output: true

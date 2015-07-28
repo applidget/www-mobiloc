@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     
     concat: {
       dist: {
-        src: ['src/react.js', 'src/amandine.js', 'src/form.js', 'src/estimate.js', ],
+        src: ['src/react.js', 'src/device-type.js', 'src/estimate.js', ],
         dest: 'src/app.js',
       },
     },
@@ -26,6 +26,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-babel');
   grunt.registerTask("default", ["concat", "babel"]);
-  
   
 };

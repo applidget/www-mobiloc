@@ -11,5 +11,5 @@ markdown: kramdown
 include:
   - "_data"
 collections:
-  - products:
-      output: true
+  - products
+      

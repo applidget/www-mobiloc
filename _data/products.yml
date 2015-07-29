@@ -1,29 +1,29 @@
 - name: iPad 2
   price: 400
   description: description du produit
-  img: /img/products/ipad-2.jpg
+  src: /img/products/ipad-2.jpg
 
 - name: iPad Air
   price: 500
   description: description du produit
-  img: /img/products/ipad-air.jpg
+  src: /img/products/ipad-air.jpg
 
 - name: iPad 2 3G
   price: 450
   description: description du produit
-  img: /img/products/ipad-2-3g.jpg
+  src: /img/products/ipad-2-3g.jpg
 
 - name: iPad Air 3G
   price: 500
   description: description du produit
-  img: /img/products/ipad-air-3g.jpg
+  src: /img/products/ipad-air-3g.jpg
 
 - name: iPad mini
   price: 500
   description: description du produit
-  img: /img/products/ipad-mini.jpg
+  src: /img/products/ipad-mini.jpg
 
 - name: Galaxy Tab 2
   price: 500
   description: description du produit
-  img: /img/products/galaxy-tab-2.jpg
+  src: /img/products/galaxy-tab-2.jpg

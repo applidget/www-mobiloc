@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 
     concat: {
       dist: {
-        src: ['src/react.js', 'src/device-type.js', 'src/estimate.js', ],
+        src: ['src/react.js', 'src/device-type.js', 'src/products.js' ],
         dest: 'src/app.js',
       },
     },

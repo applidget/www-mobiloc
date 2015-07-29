@@ -21,18 +21,19 @@ baseline: "Duis quam erat, porta in <span>tellus</span> eget, ornare <span>hendr
         </div>
         <div class="col-md-5">
             <div class="row" id="Container">
-
-                {% for product in site.data.products %}
-                    <div class="col-sm-6 mix category-{{product.name | replace: ' ', '-' | downcase }}" data-price="{{product.price}}">
-                        <div class="ec-box">
-                            <div class="ec-box-header"><a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase}}">{{product.name}}</a></div>
-                            <a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase }}"><img src="{{ product.img | prepend: site.baseurl }}" alt="{{product.name }}"></a>
-                            <div class="ec-box-footer text-center">
-                                <a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase }}" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Ajouter au devis</a>
+                {% comment %}
+                    {% for product in site.data.products %}
+                        <div class="col-sm-6 mix category-{{product.name | replace: ' ', '-' | downcase }}" data-price="{{product.price}}">
+                            <div class="ec-box">
+                                <div class="ec-box-header"><a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase}}">{{product.name}}</a></div>
+                                <a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase }}"><img src="{{ product.img | prepend: site.baseurl }}" alt="{{product.name }}"></a>
+                                <div class="ec-box-footer text-center">
+                                    <a href="{{site.baseurl}}/{{product.name | replace: ' ', '-' | downcase }}" class="btn btn-ar btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Ajouter au devis</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                {% endfor %}
+                    {% endfor %}
+                {% endcomment %}
             </div>
         </div>
         <div class="col-md-3">
